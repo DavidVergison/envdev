@@ -14,4 +14,4 @@ sudo docker run -d --name ${CONTAINER_NAME} \
 
 sleep 2
 
-sudo docker exec -it ${CONTAINER_NAME} hugo server -D -s /home/root/site --bind 0.0.0.0
+sudo docker exec -it ${CONTAINER_NAME} hugo -D -d /usr/share/nginx/html -s /home/root/site

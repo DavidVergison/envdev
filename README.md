@@ -14,10 +14,15 @@ cd aws-docker
 ```
 ./start.sh
 ```
+Visiter ensuite : http://localhost:1313/
 
 ## Lancement du container en mode TEST de génération
-TODO
-Le conteneur contient un nginx mais il n'est pas encore utilisé
+(génération "one-shoot", servie par un nginx)
+```
+./start.sh
+```
+Visiter ensuite : http://localhost:8080/
+
 
 ## Déploiement
 TODO

@@ -19,7 +19,7 @@ Visiter ensuite : http://localhost:1313/
 ## Lancement du container en mode TEST de génération
 (génération "one-shoot", servie par un nginx)
 ```
-./start.sh
+./generate.sh
 ```
 Visiter ensuite : http://localhost:8080/
 
